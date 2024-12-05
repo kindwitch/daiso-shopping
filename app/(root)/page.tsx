@@ -16,6 +16,7 @@ export default function Home() {
       <Button variant={'outline'} size={'lg'}>
         Click me -outline, lg
       </Button>
+      <br />
       <Button variant={'secondary'} size={'icon'}>
         Click me - second
       </Button>
