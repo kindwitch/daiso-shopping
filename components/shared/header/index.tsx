@@ -27,7 +27,7 @@ const Header = async () => {
               Cart
             </Link>
           </Button>
-          <Button asChild>
+          <Button>
             <Link href="/cart">
               <ShoppingCart />
               Sign In

@@ -1,25 +1,11 @@
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+import ProductList from '@/components/shared/product/product-list'
+import sampleData from '@/lib/sample-data'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <Button className="bg-blue-300 px-4 py-2 rounded-md">Button</Button>
-      <br />
-      <Button>Click me -default</Button>
-      <br />
-      <Button variant={'destructive'} size={'sm'}>
-        Click me -destructive
-      </Button>
-      <br />
-      <Button variant={'outline'} size={'lg'}>
-        Click me -outline, lg
-      </Button>
-      <br />
-      <Button variant={'secondary'} size={'icon'}>
-        Click me - second
-      </Button>
+    <div className="space-y-8">
+      <h2 className="h2-bold">Latest Products</h2>
+      <ProductList data={sampleData.products} />
     </div>
   )
 }
