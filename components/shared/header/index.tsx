@@ -1,4 +1,4 @@
-import { MenuIcon, ShoppingCart } from 'lucide-react'
+import { ShoppingCart } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -25,12 +25,6 @@ const Header = async () => {
             <Link href="/cart">
               <ShoppingCart />
               Cart
-            </Link>
-          </Button>
-          <Button>
-            <Link href="/cart">
-              <ShoppingCart />
-              Sign In
             </Link>
           </Button>
         </div>
